@@ -1,0 +1,7 @@
+#Rename this file to terraform.tfvars and update the below values
+
+region = "nyc3"
+image = "ubuntu-18-04-x64"
+master_node_size = "s-2vcpu-4gb"
+worker_node_size = "s-1vcpu-2gb"
+worker_nodes = 2
